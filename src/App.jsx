@@ -7,6 +7,7 @@ import Teamwork from "./pages/Teamwork";
 import OurProjects from "./pages/OurProjects";
 import Development from "./pages/Development";
 import Footer from "./pages/Footer";
+import Pagination from "react-js-pagination";
 
 function App() {
   return<>
@@ -19,6 +20,7 @@ function App() {
   <OurProjects />
   <Development />
   <Footer />
+  {/* <Pagination /> */}
   </>;
 }
 

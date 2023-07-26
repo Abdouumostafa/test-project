@@ -20,7 +20,7 @@ const AboutUs = () => {
                 <p className='group-hover:text-white'>عمل تطبيقات هاتف في الشرق الاوسط و الوطن العربي</p>                    
                 </div>
             </div>
-            <img src={mainPic} alt="" className='lg:w-[580px] md:w-[420px] md:block hidden'/>
+            <img src={mainPic} alt="" className='lg:w-[520px] md:w-[420px] md:block hidden'/>
             <div className='w-[200px] md:hidden block relative'>
                 <img src={row} alt="right" className='w-[110px] top-[-10px] left-[-85px] absolute rotate-[240deg]'/>
                 <img src={mobile} alt="mobile" />

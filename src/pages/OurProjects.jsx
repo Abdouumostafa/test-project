@@ -26,12 +26,12 @@ const OurProjects = () => {
         <div className="fixed-padding">
             <h1 className="text-[32px] font-bold">دعنا نعرفك علي مشاريعنا السابقة</h1>
             <p className="text-[22px] my-4">اكتشف اهم مشاريعنا في السنوات الماضية</p>
-            <div className="flex flex-wrap items-center justify-center gap-8 mt-10">
+            <div className="flex flex-wrap items-center justify-center gap-10 mt-10">
               {allCategories.map((category, index)=>{
                 return <div key={index} onClick={() =>{
                    handleClick(index)
                   filterItems(category)
-                  }} className={index === activeBtn ? "active py-2 px-4 border border-[#EF2B2D] rounded-xl cursor-pointer hover:bg-[#EF2B2D] hover:text-white duration-300" : 'py-2 px-4 bg-white text-black border border-[#EF2B2D] rounded-xl cursor-pointer hover:bg-[#EF2B2D] hover:text-white duration-300'}>{category}</div>
+                  }} className={index === activeBtn ? "active py-3 px-6 border border-[#EF2B2D] rounded-xl cursor-pointer hover:bg-[#EF2B2D] hover:text-white duration-300" : 'py-2 px-4 bg-white text-black border border-[#EF2B2D] rounded-xl cursor-pointer hover:bg-[#EF2B2D] hover:text-white duration-300'}>{category}</div>
               })}
             </div>
             <OurProjectsElements projects={mainProjects}/>
